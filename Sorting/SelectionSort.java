@@ -1,5 +1,4 @@
 package Sorting;
-
 public class SelectionSort {
     public static void main(String[] args) {
         int [] nums = {9 , 5, 2, 1 , 4, 7};
