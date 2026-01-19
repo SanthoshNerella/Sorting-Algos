@@ -8,7 +8,6 @@ public class SelectionSort {
             System.out.print(num + " ");
         }
         selectionSort(nums);
-
     }
     public static void selectionSort(int[] arr){
         // int minIndx = -1;
