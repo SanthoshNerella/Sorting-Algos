@@ -1,5 +1,4 @@
 package Sorting;
-
 public class BubbleSort {
     public static void main(String[] args) {
         int [] nums = {2 , 6 , 3, 5, 9 , 8 , 1};
@@ -13,7 +12,6 @@ public class BubbleSort {
         for(int num : nums){
             System.out.print(num + " ");
         }
-
     }
     public  static void bubbleSort(int[] arr){
         int size = arr.length;
