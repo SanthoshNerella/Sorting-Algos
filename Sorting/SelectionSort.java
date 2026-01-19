@@ -11,10 +11,10 @@ public class SelectionSort {
 
     }
     public static void selectionSort(int[] arr){
-        int minIndx = -1;
+        // int minIndx = -1;
         int size = arr.length;
         for(int i = 0 ; i < size - 1 ; i++){
-            minIndx = i;
+            int minIndx = i;
             for(int j = i + 1 ; j < size ; j++){
                 if(arr[minIndx] > arr[j]){
                     minIndx = j ;
